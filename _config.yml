@@ -1,0 +1,15 @@
+#当发生文件修改时，网站重新生成 default：false
+auto: true
+#markdown: rdiscount
+
+#代码高亮方式 pygments
+highlighter: 'pygments'
+
+#分页功能
+#paginate: 8
+permalink: /:title----------/:year/:month/:day
+
+title: ··博客··
+url: http://lychhh.github.io
+feed: /atom.xml
+author_info: <a href="http://lychhh.github.io/">lyc</a>

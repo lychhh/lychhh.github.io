@@ -1,1 +1,6 @@
-# lychhh.github.io
+#一点点说明
+
+
+* 希望你喜欢
+* 欢迎star
+* 欢迎fork
