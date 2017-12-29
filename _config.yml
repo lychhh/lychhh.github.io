@@ -3,7 +3,7 @@ auto: true
 #markdown: rdiscount
 
 #代码高亮方式 pygments
-highlighter: 'pygments'
+#highlighter: 'pygments'
 
 #分页功能
 #paginate: 8
