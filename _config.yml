@@ -13,3 +13,8 @@ title: ··博客··
 url: http://lychhh.github.io
 feed: /atom.xml
 author_info: <a href="http://lychhh.github.io/">lyc</a>
+baseurl: ""
+author: XuZehua # add your name
+author-img: ff.jpg # add your photo
+github: lychhh # add your Github handle
+about-author: I am a new JavaWeb developer. # add description
