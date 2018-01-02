@@ -1,6 +1,6 @@
 ---
 layout:     post
-title: 灵异的事件    
+title: 灵异的事件（测试）    
 category: blog
 description: 听亲身者的描述
 ---
