@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 如何做好一锅传家卤
+title: 如何做好一锅传家卤(copy)
 category: dump
 description: 自己和家人的经验之谈。
 ---
