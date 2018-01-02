@@ -9,7 +9,7 @@ auto: true
 #paginate: 8
 permalink: /:title
 
-title: ··徐泽华的个人博客··
+title: ··博客··
 url: http://lychhh.github.io
 #feed: /atom.xml
 author_info: <a href="http://lychhh.github.io/">lyc</a>
