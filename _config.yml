@@ -7,7 +7,7 @@ auto: true
 
 #分页功能
 #paginate: 8
-permalink: /:title----------/:year/:month/:day
+permalink: /:title
 
 title: ··博客··
 url: http://lychhh.github.io
