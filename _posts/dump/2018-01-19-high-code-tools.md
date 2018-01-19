@@ -1,7 +1,7 @@
 ---
 layout:     post
 title: 高效编码工具收集整合
-category: blog
+category: dump
 description: 慢慢收集
 ---
 
