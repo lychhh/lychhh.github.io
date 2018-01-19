@@ -11,8 +11,10 @@ Windows
 工具
 * everything
 > 快速搜索当前电脑中的任何文件
-
-
+ 
+* Wox、Launcy
+> 快速启动器
+ 
 Mac
 =======
 
