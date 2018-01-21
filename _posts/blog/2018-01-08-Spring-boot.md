@@ -9,7 +9,7 @@ description: 初步了解
  
  启动报错
  
-项目会自动配置数据库，启动报错，需要我们禁用自动配置数据库
+ 项目会自动配置数据库，启动报错，需要我们禁用自动配置数据库
 > @SpringBootApplication(exclude = {
 > 		DataSourceAutoConfiguration.class,
 > 		DataSourceTransactionManagerAutoConfiguration.class,
