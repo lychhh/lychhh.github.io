@@ -18,8 +18,9 @@ description: 初步了解
  
  默认配置
 * application.properties
-> server.context-path=/helloboot
+> server.context-path=/helloboot 
 > server.port=8081
+
 * application.yml
 
 > server:  
