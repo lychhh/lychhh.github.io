@@ -14,3 +14,16 @@ description: 初步了解
 > 		DataSourceAutoConfiguration.class,
 > 		DataSourceTransactionManagerAutoConfiguration.class,
 > 		HibernateJpaAutoConfiguration.class})
+
+ 
+ 默认配置
+* application.properties
+> server.context-path=/helloboot
+> server.port=8081
+* application.yml
+
+> server:  
+>   port: 8090  
+>   session-timeout: 30  
+>   tomcat.max-threads: 0  
+>   tomcat.uri-encoding: UTF-8 
