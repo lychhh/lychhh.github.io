@@ -11,6 +11,7 @@ description: 比较idea与eclipse的区别（待续。。。）
 ide | idea | eclipse
 ------------ | -------------- | -------------
 导入包 | Alt + Enter | CTRL + SHIFT + O
-
+搜索类 | shirt + shirt | CTRL + SHIFT + R
+ 
 >待续。。。
 
