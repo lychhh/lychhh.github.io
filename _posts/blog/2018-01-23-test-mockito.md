@@ -42,12 +42,12 @@ spy.add("one");
 
 附录：参考文档一览
  
-[Mockito官网](http://site.mockito.org/)
-[5分钟了解Mockito](http://liuzhijun.iteye.com/blog/1512780)
-[Mockito简单介绍及示例](http://blog.csdn.net/huoshuxiao/article/details/6107835)
-[Mockito浅谈](http://www.jianshu.com/p/77db26b4fb54)
-[单元测试利器-Mockito 中文文档](http://blog.csdn.net/bboyfeiyu/article/details/52127551)
-[Mockito使用指南](http://blog.csdn.net/shensky711/article/details/52771493)
-[JUnit+Mockito 单元测试（二）](http://blog.csdn.net/zhangxin09/article/details/42422643)
+* [Mockito官网](http://site.mockito.org/)
+* [5分钟了解Mockito](http://liuzhijun.iteye.com/blog/1512780)
+* [Mockito简单介绍及示例](http://blog.csdn.net/huoshuxiao/article/details/6107835)
+* [Mockito浅谈](http://www.jianshu.com/p/77db26b4fb54)
+* [单元测试利器-Mockito 中文文档](http://blog.csdn.net/bboyfeiyu/article/details/52127551)
+* [Mockito使用指南](http://blog.csdn.net/shensky711/article/details/52771493)
+* [JUnit+Mockito 单元测试（二）](http://blog.csdn.net/zhangxin09/article/details/42422643)
 
 
