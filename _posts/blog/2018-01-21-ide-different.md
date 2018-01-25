@@ -13,7 +13,8 @@ ide | idea | eclipse
 导入包 | Alt + Enter | CTRL + SHIFT + O
 搜索类 | shirt + shirt | CTRL + SHIFT + R
  
->待续。。。
+>待续。。。 
+
  
 * idea的默认设置
 打开file里面的other settings的default settings 
