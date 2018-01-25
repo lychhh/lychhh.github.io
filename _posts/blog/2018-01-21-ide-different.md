@@ -14,4 +14,6 @@ ide | idea | eclipse
 搜索类 | shirt + shirt | CTRL + SHIFT + R
  
 >待续。。。
-
+ 
+* idea的默认设置
+打开file里面的other settings的default settings 
