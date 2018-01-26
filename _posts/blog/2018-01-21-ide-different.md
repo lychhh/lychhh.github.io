@@ -9,7 +9,7 @@ description: 比较idea与eclipse的区别（待续。。。）
 =======
 
 | ide | idea | eclipse |
------------- | -------------- | ------------- |
+|-------|------|-------|
 | 导入包 | Alt + Enter | CTRL + SHIFT + O |
 | 搜索各种文件 | ctrl + shift + n | CTRL + SHIFT + R |
 | 搜索类所在jar包 | ctrl + n | CTRL + SHIFT + T |
@@ -23,10 +23,7 @@ description: 比较idea与eclipse的区别（待续。。。）
  
 | 万能搜索 | shift + shift |  |
 
-| 标题1 | 标题2 | 标题3 |
-|-------|------|-------|
-| 内容 | 内容 | 23333333333 |
-| 内容 | 内容 | 0.2333 |
+
 
  
 >待续。。。 
