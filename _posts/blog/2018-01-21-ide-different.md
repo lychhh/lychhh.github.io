@@ -20,11 +20,7 @@ description: 比较idea与eclipse的区别（待续。。。）
 | 删除行 | ctrl + X | ctrl + D |
 | 上下方法切换 | alt + up/down | 。。 |
 | 代码注释 | Ctrl+/ 或 Ctrl+Shift+/ | Ctrl+/ 或 Ctrl+Shift+/ 或 Ctrl+Shift+C |
-
-
- 
-| 万能搜索 | shift + shift |  |
-
+| 万能搜索 | shift + shift | 。。 |
 
 
  
