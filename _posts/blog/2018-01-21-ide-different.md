@@ -11,7 +11,12 @@ description: 比较idea与eclipse的区别（待续。。。）
 ide | idea | eclipse
 ------------ | -------------- | -------------
 导入包 | Alt + Enter | CTRL + SHIFT + O
-搜索类 | shirt + shirt | CTRL + SHIFT + R
+搜索各种文件 | ctrl + shift + n | CTRL + SHIFT + R
+搜索类所在jar包 | ctrl + n | CTRL + SHIFT + T
+全局搜索 | ctrl + shift + f | CTRL + H
+搜索类中的方法 |  | CTRL + O
+万能搜索 | shift + shift | 
+
  
 >待续。。。 
 
