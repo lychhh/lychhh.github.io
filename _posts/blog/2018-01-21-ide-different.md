@@ -23,12 +23,13 @@ description: 比较idea与eclipse的区别（待续。。。）
 | 万能搜索 | shift + shift | 。。 |
 
 
- 
->待续。。。 
 
- 
+
+
  * idea的默认设置
+ 
 打开file里面的other settings的default settings 
 
  * 日常使用到的快捷操作
+ 
 枚举值类修改直接修改所有使用到此枚举值的类（选中直接右键Refactor-rename）
