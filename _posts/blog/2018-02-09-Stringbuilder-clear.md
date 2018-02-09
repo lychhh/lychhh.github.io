@@ -6,7 +6,7 @@ description: 编写代码测试
 ---
 
 
-> 		StringBuilder builder = new StringBuilder();
+ 	StringBuilder builder = new StringBuilder();
         long time = System.currentTimeMillis();
         for(int i=0;i<10000000;i++){
             builder = new StringBuilder();
@@ -36,4 +36,4 @@ description: 编写代码测试
             builder.append("1d");
             builder.append("1e");
         }
->       System.out.println("setLenth=0 耗时：" + (System.currentTimeMillis() - time2));
+        System.out.println("setLenth=0 耗时：" + (System.currentTimeMillis() - time2));
