@@ -13,4 +13,4 @@ description: copy
 
 内容很多，值得一阅
 
-![](http://segmentfault.com/img/bV9nkT)
+![程序员的自我修养](http://segmentfault.com/img/bV9nkT)
