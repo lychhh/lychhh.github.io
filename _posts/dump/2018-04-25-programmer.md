@@ -14,3 +14,5 @@ description: copy
 内容很多，值得一阅
 
 ![程序员的自我修养](http://segmentfault.com/img/bV9nkT)
+
+2、[Java后端很详细的学习树](https://github.com/xingshaocheng/architect-awesome/blob/master/README.md?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
