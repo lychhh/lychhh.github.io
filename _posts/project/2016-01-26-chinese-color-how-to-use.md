@@ -5,6 +5,20 @@ category: project
 description: 姗姗来迟的使用帮助。多谢厚爱！
 ---
 
+
+
+```json
+   // code for coloring
+```
+```html
+   // code for coloring
+```
+```js
+   // code for coloring
+```
+```css
+   // code for coloring
+```
 这是个什么应用？
 -----------
 “中国传统色”是一个色谱/色卡应用。
