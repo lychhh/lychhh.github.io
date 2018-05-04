@@ -117,3 +117,7 @@ Evernote出品，这个强烈推荐！！不管你是用Evernote记笔记也好�
 16、[掘金](https://chrome.google.com/webstore/detail/%E6%8E%98%E9%87%91/lecdifefmmfjnjjinhaennhdlmcaeeeb/related)
 
 掘金，一款高质量的技术分享社区。
+
+17、[cache-killer](https://chrome.google.com/webstore/detail/classic-cache-killer/kkmknnnjliniefekpicbaaobdnjjikfp)
+
+快捷开关，实现刷新页面清缓存的功能
