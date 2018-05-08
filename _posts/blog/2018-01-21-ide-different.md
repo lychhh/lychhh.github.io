@@ -15,7 +15,7 @@ description: 比较idea与eclipse的区别（待续。。。）
 | 搜索各种文件 | ctrl + shift + n | CTRL + SHIFT + R |
 | 搜索类所在jar包 | ctrl + n | CTRL + SHIFT + T |
 | 全局搜索 | ctrl + shift + f | CTRL + H |
-| 搜索类中的方法 | CTRL + O | 。。 |
+| 搜索类中的方法 | CTRL + O | CTRL + O |
 | 最近更改代码 | ctrl + E | 。。 |
 | 调到包含头尾 | ctrl + {} | 。。 |
 | 删除行 | ctrl + X | ctrl + D |
