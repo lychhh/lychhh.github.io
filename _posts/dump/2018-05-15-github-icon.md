@@ -6,8 +6,7 @@ description: 附上网址
 ---
 
 
-:octocat:  
-:cn:
+适用于github
 
 [图标网址](https://www.webpagefx.com/tools/emoji-cheat-sheet/)
 
