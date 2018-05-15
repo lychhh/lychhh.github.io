@@ -20,4 +20,3 @@ github使用md文件添加复选框
 - [ ] Open a pull request
 ```
 ![image.png](https://upload-images.jianshu.io/upload_images/11970387-4d4df46f38c5a2ae.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
