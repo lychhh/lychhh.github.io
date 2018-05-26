@@ -33,3 +33,9 @@ public class Singleton {
 ```
 在该方法中，Singleton有一个静态内部类，内部类在外部类加载的时候并不会加载，只有在调用getInstance方法的时候加载SingletonHolder类
 
+5、守护线程Daemon  
+用户线程结束后，守护线程自然而然会结束
+
+6、ListIterator  
+List的迭代器，增加: 插入，往前遍历的功能，前后遍历同时用注意转向问题
+

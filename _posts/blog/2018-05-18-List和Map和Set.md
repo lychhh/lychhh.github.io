@@ -6,4 +6,6 @@ description: 学习了解下
 ---
 
 
-![image](https://user-images.githubusercontent.com/26774647/40224689-796cb174-5ab9-11e8-9a63-2001fa568820.png)
+![image](https://user-images.githubusercontent.com/26774647/40224689-796cb174-5ab9-11e8-9a63-2001fa568820.png)  
+HashMap : 默认数组容量 16，负载因子 0.75  
+
