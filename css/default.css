@@ -144,20 +144,10 @@ h3.about {color:#777;margin-top:20px;font-size:22px;margin-bottom:10px}
 .home-contact a { width:30px; display:inline-block; }
 .home-contact img { width:18px; }
 
-.index-content .search-box input {
-    cursor: pointer;
-    width: 10rem;
-    color: #4e6e8e;
-    display: inline-block;
-    border: 1px solid #cfd4db;
-    border-radius: 2rem;
-    font-size: .9rem;
-    line-height: 2rem;
-    padding: 0 .5rem 0 2rem;
-    outline: none;
-    transition: all .2s ease;
-    background-size: 1rem;
-}
+.index-content .search-box{display:inline-block;position:relative;margin-right:.5rem}
+
+.index-content .search-box input{cursor:pointer;width:10rem;color:#4e6e8e;display:inline-block;border:1px solid #cfd4db;border-radius:2rem;font-size:.9rem;line-height:2rem;padding:0 .5rem 0 2rem;outline:none;transition:all .2s ease;background:#fff .6rem .5rem no-repeat;background-size:1rem}
+.index-content .search-box input:focus{cursor:auto;border-color:#3eaf7c}
 
 @media screen and (max-width: 750px){
     body {font-size:14px;}
