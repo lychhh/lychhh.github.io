@@ -5,7 +5,6 @@ layout: home
 <div class="index-content blog">
 	
     <div class="section">
-	<div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""></div>
         <ul class="artical-cate">
             <li class="on"><a href="/"><span>Blog</span></a></li>
             <li style="text-align:center"><a href="/dump"><span>Dump</span></a></li>
