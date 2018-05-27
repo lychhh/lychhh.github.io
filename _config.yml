@@ -9,12 +9,12 @@ auto: true
 #paginate: 8
 permalink: /:title
 
-title: ··徐泽华的个人博客··
+title: ··Jevua的个人博客··
 url: http://Jevua.github.io
 #feed: /atom.xml
 author_info: <a href="http://Jevua.github.io/">lyc</a>
 baseurl: ""
-author: XuZehua # add your name
+author: Jevua # add your name
 author-img: ff.jpg # add your photo
 github: Jevua # add your Github handle
 about-author: 永远没有可以解决完的问题</br>永远没有难以处理的问题</br>关键在于你</br>不懂。。</br>没有抽丝剥茧。。 # add description
