@@ -30,7 +30,6 @@
 
         @media screen and (max-width: 767px) {
             .dropdown-menu {
-				position:relative;
                 float: none;
                 font-size: 20px;
                 width: 96%;
@@ -45,9 +44,7 @@
 
             .cb-search-content {
                 width: 96%;
-                margin: 0 2%;
-                position: absolute;
-                top: 10%;
+                margin: 1.5% 2%;
                 left: auto;
                 right: auto;
                 font-size: 22px;
