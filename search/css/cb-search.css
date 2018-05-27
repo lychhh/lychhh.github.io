@@ -3,7 +3,7 @@
                 float: none;
                 font-size: 20px;
                 width: 70%;
-                margin: 6% 25%;
+                margin: 9% 25%;
             }
 
 			.cb-search-tool ul{
@@ -16,7 +16,7 @@
 
             .cb-search-content {
                 width: 45%;
-                margin: 2% 25%;
+                margin: 5% 25%;
                 position: fixed;
                 left: auto;
                 right: auto;
