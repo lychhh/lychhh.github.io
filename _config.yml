@@ -10,9 +10,9 @@ auto: true
 permalink: /:title
 
 title: ··Jevua的个人博客··
-url: http://Jevua.github.io
+url: https://jevua.github.io/
 #feed: /atom.xml
-author_info: <a href="http://Jevua.github.io/">lyc</a>
+author_info: <a href="https://jevua.github.io/">lyc</a>
 baseurl: ""
 author: Jevua # add your name
 author-img: ff.jpg # add your photo
