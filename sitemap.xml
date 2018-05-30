@@ -1,202 +1,29 @@
+---
+layout: null
+title : sitemap
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://jevua.github.io/</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/List%E5%92%8CMap%E5%92%8CSet</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/console%E7%9A%84%E4%BD%BF%E7%94%A8</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E5%AE%9E%E4%BE%8B%E8%A2%AB%E4%BF%AE%E6%94%B9%E9%97%AE%E9%A2%98</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/%E5%B8%B8%E7%94%A8%E7%9A%84%E4%B8%80%E4%BA%9B%E6%96%B9%E6%B3%95</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/hashCode%E5%92%8Cequals</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/oracle-%E5%87%BD%E6%95%B0</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/sort</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/static</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/bitset</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/was%E6%9C%8D%E5%8A%A1%E5%99%A8</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/plsql%E5%BF%AB%E6%8D%B7%E4%BD%BF%E7%94%A8</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/dbunit</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/Stringbuilder-clear</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/charAt</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/file-share</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/test-mockito</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/ide-different</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/idea-tomcat-context</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/debug-by-chrome</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/Spring-boot</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/something-debug</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/win-%E5%BF%AB%E6%8D%B7%E9%94%AE</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/something-to-study</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/github-icon</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/%E4%B8%80%E4%BA%9B%E5%B8%B8%E8%AF%86</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/%E4%B8%80%E4%BA%9B%E5%90%8D%E7%A7%B0</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/idea%E7%A0%B4%E8%A7%A3</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/something-knowledge</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/programmer</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/google-chrome-extension</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/ssh%E8%BF%9E%E6%8E%A5</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/github%E7%9A%84%E4%B8%80%E4%BA%9B%E7%A6%8F%E5%88%A9</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/%E6%8C%87%E5%AF%BC%E5%85%B6%E5%AE%9E%E4%B9%9F%E4%B8%8D%E5%AE%B9%E6%98%93</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/productive-programmer</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/high-code-tools</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/no-oracle-plsql</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://jevua.github.io/chinese-color-how-to-use</loc>
-  <lastmod>2018-05-27T18:36:04+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  {% endfor %}
+  {% for page in site.pages %}
+    {% if page.sitemap != null and page.sitemap != empty %}
+      <url>
+        <loc>{{ site.url }}{{ page.url }}</loc>
+        <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
+        <changefreq>{{ page.sitemap.changefreq }}</changefreq>
+        <priority>{{ page.sitemap.priority }}</priority>
+       </url>
+    {% endif %}
+  {% endfor %}
 </urlset>

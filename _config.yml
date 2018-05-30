@@ -10,7 +10,8 @@ auto: true
 permalink: /:title
 
 title: ··Jevua的个人博客··
-url: https://jevua.github.io/
+url: https://jevua.github.io
+codingurl: https://jevuaxu.coding.me
 #feed: /atom.xml
 author_info: <a href="https://jevua.github.io/">lyc</a>
 baseurl: ""
