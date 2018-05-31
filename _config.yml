@@ -22,5 +22,6 @@ about-author: 永远没有可以解决完的问题</br>永远没有难以处理�
 gmail: jevuaxu@gmail.com
 coding: jevuaxu
 plugins: [jekyll-last-modified-at]
-gems: [jekyll-last-modified-at]
+gems: 
+    - jekyll-last-modified-at
 safe: true
