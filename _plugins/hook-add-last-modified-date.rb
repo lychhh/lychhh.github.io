@@ -1,3 +1,4 @@
+#Jekyll::Hooks.register :posts, :pre_render do |post|
 Jekyll::Hooks.register :posts, :pre_render do |post|
 
   # get the current post last modified time
