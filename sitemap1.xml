@@ -12,8 +12,8 @@ title : sitemap
   {% for post in site.posts %}
     <url>
       <loc>{{ site.url }}{{ post.url }}</loc>
-	  <test>post.date</test>
-	  <test>post.path</test>
+	  <test>{{ post.date }}</test>
+	  <test>{{ post.path }}</test>
       {% if post.lastmod == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       {% else %}
