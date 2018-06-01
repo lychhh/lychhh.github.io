@@ -16,10 +16,10 @@ layout: home
         <ul class="artical-list">
         {% for post in site.categories.blog %}
             <li>
-                <h2><a href="{{ post.url }}">{{ post.title }}</a>
-				<span class="title-desc">{{ post.description }}</span>
-				</h2>
-                <div class="title-desc">{{ post.excerpt | strip_html | truncate:170 }}</div>
+                <h2>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                </h2>
+                <div class="title-desc">{{ post.description }}</div>
             </li>
         {% endfor %}
         </ul>
