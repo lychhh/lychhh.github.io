@@ -45,11 +45,9 @@ layout: default
     </div>
 </div>
 <script type="text/javascript">
-	<?php
-		$date = filemtime('{{ page.path }}');
-	?>
 	alert(document.lastModified);
 	alert(<?php echo 'test'; ?>);
+	alert('<?php echo 'test'; ?>');
 	var date ='<?php echo $date?>';
     alert(date);
 </script>
