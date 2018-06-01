@@ -19,6 +19,7 @@ layout: home
                 <h2><a href="{{ post.url }}">{{ post.title }}</a>
 				<span class="title-desc">{{ post.description }}</span>
 				</h2>
+                <div class="title-desc">{{ post.excerpt | strip_html | strip_newlines | truncate:170 }}</div>
             </li>
         {% endfor %}
         </ul>
