@@ -44,12 +44,13 @@ layout: default
         </ul>
     </div>
 </div>
-<?php
-    $date = filemtime('{{ page.path }}');
-?>
 <script type="text/javascript">
+	<?php
+		$date = filemtime('{{ page.path }}');
+	?>
 	alert(document.lastModified);
-	var date ="<?php echo $date?>";
+	alert(<?php echo 'test'; ?>);
+	var date ='<?php echo $date?>';
     alert(date);
 </script>
 {% include img.html %}
