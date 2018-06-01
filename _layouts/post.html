@@ -16,7 +16,7 @@ layout: default
 <div id="content">
     <div class="entry">
         <h1 class="entry-title">{{ page.title }}</h1>
-        <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }} {{ page.last-modified-date|date:"%Y-%m-%d" }}，本文 {{ page.content | strip_html | strip_newlines | remove: " " | size }} 字，阅读全文约需 {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟{{ page.path }}
+        <p class="entry-date">{{ page.date|date:"%Y-%m-%d" }} {{ page.last-modified-date|date:"%Y-%m-%d" }}，本文 {{ page.content | strip_html | strip_newlines | remove: " " | size }} 字，阅读全文约需 {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟
 		</p>
         {{ content }}
     </div>
@@ -46,7 +46,6 @@ layout: default
 </div>
 <script type="text/javascript">
 	alert(document.lastModified);
-	alert(<?php echo 'test'; ?>);
 	alert('<?php echo 'test'; ?>');
 	var date ='<?php echo $date?>';
     alert(date);
