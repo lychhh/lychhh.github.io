@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="/css/main.css" type="text/css" />
     <link rel="stylesheet" href="/css/default.css" type="text/css" />
-    <link rel="shortcut icon" href="/ff.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="/images/webicon.jpg" type="image/x-icon" />
     <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
 </head>
 <body>
@@ -16,7 +16,7 @@
   <header>
     <div class="about">
       <div class="cover-author-image">
-        <a href="{{site.baseurl}}/"><img src="/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
+        <a href="{{site.baseurl}}/"><img src="/images/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
@@ -32,11 +32,11 @@
           <li class="github"><a href="http://github.com/" target="_blank"><img src="https://github.com/favicon.ico" alt="" width="22"/></a></li>
         {% endif %}
 		{% if site.gmail %}
-          <li class="github"><a href="mailto:{{site.gmail}}" target="_blank"><img src="https://user-images.githubusercontent.com/26774647/40095031-89231554-58fc-11e8-9915-1b7eca3968f4.png" alt="" width="22"/></a></li>
+          <li class="github"><a href="mailto:{{site.gmail}}" target="_blank"><img src="/images/gmail.png" alt="" width="22"/></a></li>
         {% else %}
         {% endif %}
 		{% if site.coding %}
-          <li class="github"><a href="https://coding.net/u/{{site.coding}}" target="_blank"><img src="https://user-images.githubusercontent.com/26774647/40096551-edb6e5ca-5903-11e8-8326-b8ffa65ea736.jpg" alt="" width="22"/></a></li>
+          <li class="github"><a href="https://coding.net/u/{{site.coding}}" target="_blank"><img src="/images/codingnet.jpg" alt="" width="22"/></a></li>
         {% else %}
         {% endif %}
       </ul>
