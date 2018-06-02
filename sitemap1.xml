@@ -7,7 +7,7 @@ title : sitemap
 
   {% for post in site.category %}
     <url>
-      <loc>{{{ post | first }}</loc>
+      <loc>{{ post | first }}</loc>
     </url>
   {% endfor %}
 
