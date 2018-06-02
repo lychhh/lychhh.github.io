@@ -19,7 +19,19 @@
         <a href="{{site.baseurl}}/"><img src="/images/{% if site.author-img %}{{site.author-img}}{% endif %}" alt="{{site.author}}"></a>
       </div>
       <div class="author-name">{{site.author}}</div>
-      <p>{{site.about-author}}</p>
+	  
+	  <div class="sidenav" style="width:100%;float:none;">
+        <h2>Categories</h2>
+        <ul style="">
+		  {% for category in site.categories %}
+		  <li><a href="/{{ category | first }}">
+		  <span style="">{{ category | first }}</span>
+		  <span style="">{{ category | last | size }}</span>
+		  {% endfor %}
+        </ul>
+	</div>
+	  
+      <!-- <p>{{site.about-author}}</p> -->
     </div>
   </header> <!-- End Header -->
   <footer>
