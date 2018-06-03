@@ -21,7 +21,10 @@
       <div class="author-name">{{site.author}}</div>
 	  
 	  <div class="sidenav" style="width:100%;float:none;display:block;">
-        <h2>Categories</h2>
+        <h2>
+			<i class="fa fa-list-ul" aria-hidden="true"></i>
+			Categories
+		</h2>
         <ul style="">
 		  {% for category in site.categories %}
 		  <li><a href="/{{ category | first }}">
