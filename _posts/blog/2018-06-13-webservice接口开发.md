@@ -39,28 +39,69 @@ axis2:
     </servlet-mapping>
 ```
 
-server-config.wsdd  
-定义接口  
-	接口名称  
-	```
-	<service name="webserviceForTest" provider="java:RPC">
-	```  
-		允许的方法  
-		```
-        <parameter name="allowedMethods" value="*"/>
-		```  
-		类路径  
-		```
-        <parameter name="className"  value="com.zres.product.trs.webservice.WebserviceForTest"/>
-		```  
-		命名空间  
-		```
-        <namespace>http://www.zznode.com/axis/webserviceForTest</namespace>
-    </service>
-		```
+cxf:
+```
+	<servlet>
+		<servlet-name>CXFService</servlet-name>
+		<servlet-class>org.apache.cxf.transport.servlet.CXFServlet</servlet-class>
+		<load-on-startup>4</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CXFService</servlet-name>
+		<url-pattern>/service/*</url-pattern>
+	</servlet-mapping>
+```
+
+
+发布接口  
+axis：  
+server-config.wsdd（位于WEB-INF文件夹下）  
+
+```
+<service name="webserviceForTest" provider="java:RPC">
+	<parameter name="allowedMethods" value="*"/>
+	<parameter name="className"  value="com.zres.product.trs.webservice.WebserviceForTest"/>
+	<namespace>http://www.zznode.com/axis/webserviceForTest</namespace>
+</service>
+```
+
+#### allowedMethods——允许的方法 , className——类路径 , namespace——命名空间
+
+		
+cxf：  
+通过spring直接引入  
+```
+<bean id="ILaunchProjectTransAssets" class="com.ztesoft.resmaster.module.smrh.interfacemanage.bizwebservice.webservice.LaunchProjectTransAssets"></bean> 
+    <jaxws:endpoint id="ILaunchProjectTransAssetsWSDL" implementor="#ILaunchProjectTransAssets"
+    	address="/ILaunchProjectTransAssets" />
+```
+
+#### bean id接口 , class 实现类 , endpoint id 自定义 , implementor 实现类 , address 自定义
+
+axis2：  
+services.xml（位于WEB-INF下services下工程名下META-INF里）  
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<serviceGroup>
+	<service name="TieTaRoutingService" >
+		<description>TieTaRoutingService</description>
+		<messageReceivers>
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" mep="http://www.w3.org/2004/08/wsdl/in-only" />
+			<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" mep="http://www.w3.org/2004/08/wsdl/in-out" />
+		</messageReceivers>
+		<parameter name="ServiceObjectSupplier">
+			org.apache.axis2.extensions.spring.receivers.SpringServletContextObjectSupplier
+		</parameter>
+		<parameter name="SpringBeanName">tieTaRouting</parameter>
+	</service>
+</serviceGroup>
+```
 
 接口访问  
+axis：  
 http://localhost:8081/trsweb/services/webserviceForResources?wsdl
+
+services——拦截器配置 , webserviceForResources——服务名 
 
 
 使用soapUi测试接口功能  
