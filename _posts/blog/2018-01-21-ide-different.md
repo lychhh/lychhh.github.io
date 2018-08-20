@@ -23,6 +23,8 @@ description: 比较idea与eclipse的区别（待续。。。）
 | 向上下复制一行 | 。。 | Ctrl + Alt + up/down |
 | 代码注释 | Ctrl+/ 或 Ctrl+Shift+/ | Ctrl+/ 或 Ctrl+Shift+/ 或 Ctrl+Shift+C |
 | 万能搜索 | shift + shift | 。。 |
+| 括号匹配 | Ctrl + shift + P | 。。 |
+| 定位下一个错误 | F2 | 。。 |
 
 
 
@@ -36,5 +38,10 @@ description: 比较idea与eclipse的区别（待续。。。）
  
 枚举值类修改直接修改所有使用到此枚举值的类（选中直接右键Refactor-rename）
 
-*idea也可以设置快捷键的风格（熟悉eclipse的可以使用eclipse的快捷键）
+* idea也可以设置快捷键的风格（熟悉eclipse的可以使用eclipse的快捷键）
 ![image.png](https://upload-images.jianshu.io/upload_images/11970387-f0671f60441f7c2e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+* 在Eclipse中，输入main再按Alt+/即可自动补全main函数，但是在IntellJ中则是输入psvm，选中即可
+
+* System.out.println();在IntellJ中是输入sout,Eclipse中是sysout
+

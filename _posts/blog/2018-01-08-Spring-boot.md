@@ -32,4 +32,11 @@ description: 初步了解
 > spring.profiles.active=dev
  就可以访问application-dev.properties的配置
  
- 看过别人的[博客](http://blog.csdn.net/u012702547/article/details/53740047)
+可以通过命令行Terminal启动springboot项目  
+mvn spring-boot:run
+
+默认日志log4j  
+private static Logger logger = LogManager.getLogger(TestController.class);
+
+ 
+看过别人的[博客](http://blog.csdn.net/u012702547/article/details/53740047)
