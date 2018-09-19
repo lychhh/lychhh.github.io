@@ -25,6 +25,15 @@ description: 比较idea与eclipse的区别（待续。。。）
 | 万能搜索 | shift + shift | 。。 |
 | 括号匹配 | Ctrl + shift + P | 。。 |
 | 定位下一个错误 | F2 | 。。 |
+| 大小写转换 | Ctrl+Shift+U | 。。 |
+| Fix doc comment生成java doc注释 | Alt+J(自定义) | 。。 |
+| Show Intention Action智能改错 | Alt+Enter | 。。 |
+| 自动补全末尾的字符 | Ctrl+Shift+Enter | 。。 |
+| 关闭文件 | Shift+click | 。。 |
+| 复制当前文件路径 | Ctrl+Shift+C | 。。 |
+| 查找实现类 | Ctrl+alt+B | 。。 |
+| 类层级结构hierarchy | F4 | 。。 |
+
 
 
 
