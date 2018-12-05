@@ -16,6 +16,8 @@ JMM关于synchronized的两条规定：
 
 ### 加锁
 
+在HotSpot JVM中 锁被称作对象监视器  
+
 * 方法 public synchronized void demo1(){};
 
 实例锁，，同一个实例等待锁释放  
