@@ -33,6 +33,9 @@ description: 比较idea与eclipse的区别（待续。。。）
 | 复制当前文件路径 | Ctrl+Shift+C | 。。 |
 | 查找实现类 | Ctrl+alt+B | 。。 |
 | 类层级结构hierarchy | F4 | 。。 |
+| Quick Documentation | Ctrl+Shift+空格 | 。。 |
+| 方法调用地方 | Ctrl+G | 。。 |
+| debug调试 | Ctrl+U | 。。 |
 
 
 
