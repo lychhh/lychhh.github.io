@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [{
         "src": "index.md",
-        "use": "@juicyfx/md@canary"
+        "use": "@now/static"
     }],
     "env": {
         "TARGET": "production"
