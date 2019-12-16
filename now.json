@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [{
+        "src": "index.md",
+        "use": "@now/static"
+    }],
+    "env": {
+        "TARGET": "production"
+    }
+}
