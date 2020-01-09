@@ -38,6 +38,7 @@ description: 比较idea与eclipse的区别（待续。。。）
 | debug调试 | Ctrl+U | 。。 |
 | get/set/Override | Alt+Insert | 。。 |
 | 搜索urlpath | CTRL+\ | 。。 |
+| ctrl+鼠标左键 | ctrl+alt+b | 。。 |
 
 
 
