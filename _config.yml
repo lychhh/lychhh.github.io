@@ -22,6 +22,7 @@ about-author: 永远没有可以解决完的问题</br>永远没有难以处理�
 gmail: jevuaxu@gmail.com
 coding: jevuaxu
 plugins:
+  - jekyll-feed
   - jekyll-last-modified-at
 last-modified-at:
-    date-format: '%d-%b-%y'
+    date-format: '%y-%M-%d'
