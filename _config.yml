@@ -1,27 +1,171 @@
-#当发生文件修改时，网站重新生成 default：false
-auto: true
-#markdown: rdiscount
+# Site settings
+title: "DouO's Blog"
+email: dourokinga@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+              有時樹會倒下，某片天頃刻明亮
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://dourok.info" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: dourok
+github_username:  douo
+disqus_id: doousblog
 
-#代码高亮方式 pygments
-#highlighter: 'pygments'
-
-#分页功能
-#paginate: 8
-permalink: /:title
-
-title: ··Jevua的个人博客··
-url: https://jevua.github.io
-codingurl: https://jevuaxu.coding.me
-#feed: /atom.xml
-author_info: <a href="https://jevua.github.io/">lyc</a>
-baseurl: ""
-author: Jevua # add your name
-author-img: webicon.jpg # add your photo
-github: Jevua # add your Github handle
-about-author: 永远没有可以解决完的问题</br>永远没有难以处理的问题</br>关键在于你</br>不懂。。</br>没有抽丝剥茧。。 # add description
-gmail: jevuaxu@gmail.com
-coding: jevuaxu
+# Build settings
+markdown: KramdownFix # kramdown
+# theme: minima
 plugins:
+  - jekyll-feed
   - jekyll-last-modified-at
+
+feed:
+  path: rss.xml
+# Make sure the `_pages/` is processed
+include:
+  - _pages
+
+# Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
     date-format: '%y-%M-%d'
+
+# Make sure the `_site/assets/` is not trashed (webpack output)
+keep_files:
+  - assets
+
+# Exclude from processing (not moved to `_site/`)
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - package.json
+  - package-lock.json
+  - LICENSE
+  - README.md
+  - webpack.config.js
+  - "*.lock"
+  - "*.log"
+# 禁用 Jekyll 生成摘要
+excerpt_separator: "已禁用，见 _config.yml"
+
+# 设置默认的 yml 头部数据
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      # 默认不启用附加功能
+      math: false # 是否引入 _includes/mathjax.html
+      graphviz: false # 是否引入 _includes/graphviz.html
+
+  -
+    scope: # 表示影响范围
+      path: "" # an empty string here means all files in the project
+      type: "posts" # 表示受影响的类型 pages, posts, drafts 或者任何自定义集合
+    values: # 具体的默认值
+      layout: "post"
+      permalink: "/:year/:month/:day/:title/"
+      collection_title: "DouO's Blog"
+  -
+    scope:
+      type: "notes" #
+    values:
+      layout: "note"
+      permalink: "/:collection/:path/"
+      collection_title: "DouO's Note"
+  -
+    scope:
+      path: "resumes"
+      type: "pages"
+    values:
+      layout: "resume"
+  -
+    scope:
+      path: "diary"
+      type: "diary"
+    values:
+      layout: "diary"
+
+# 自定义的以 '_' 开头的目录或文件，不声明为 collection 会自动被忽略
+collections:
+  resumes:
+    output: false
+  notes:
+    output: true
+    to_tree: true
+  diary:
+    output: true
+    to_tree: true
+
+# 自定义
+nav :
+  - title: home
+    url: /
+    describe: 主页
+  - title: notes
+    url: /notes
+    describe: 笔记
+  - title: coder
+    url: /categories#coder-ref
+    describe: 编码
+  - title: life
+    url: /categories#life-ref
+    describe: 生活
+  - title: otaku
+    url: /categories#otaku-ref
+    describe: 兴趣
+  - title: tags
+    url: /tags
+    describe: 标签
+  - title: log
+    url: /log
+    describe: 日志
+  - title: help
+    url: /help
+    describe: 帮助
+  - title: about
+    url: /about
+    describe: 关于
+
+
+links:
+  - title: MAGICALBOY
+    url: https://magicalboy.com/
+  - title: 驴子博客
+    url: http://www.cnlvzi.com/
+
+
+
+network :
+  - id: feed
+    url: /rss.xml
+    name: 订阅
+  - id: github
+    url: https://github.com/douo
+    name: Github
+  - id: stack-overflow
+    url: https://stackoverflow.com/users/851344/douo
+    name: StackOverflow
+  - id: google-plus
+    url: https://plus.google.com/102537448648560113422
+    name: Google Plus
+  - id: instagram
+    url: https://instagram.com/douo
+    name: Instagram
+  - id: weibo
+    url: https://weibo.com/u/2809197792
+    name: 微博
+
+# show_drafts: true
+
+sass:
+    sass_dir: _sass
+
+
+notes :
+   order:
+       - Programming
+       - Computer
+       - Tools
+       - Study
+       - Reading
+       - Uncategory
+       - Quick
